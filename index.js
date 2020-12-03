@@ -2,6 +2,7 @@
 
 
 function displayResults(responseJson) {
+  console.log(responseJson)
   $('.results-img').replaceWith(
     `<img src="${responseJson.message}" class="results-img">`
   )
